@@ -1,0 +1,78 @@
+{
+  "id": "1",  
+  "userId": "1",
+  "firstName": "employee",
+  "lastName": "test",
+  "middleName": "ABC",
+  "preferredName": "Johnny",
+  "email": "employee1@gmail.com",
+  "cellPhone": "555-1234",
+  "alternatePhone": "555-5678",
+  "gender": "Male",
+  "SSN": "123-45-6789",
+  "DOB": "1990-01-01",
+  "startDate": "2020-06-01",
+  "endDate": null,
+  "driverLicense": "D1234567",
+  "driverLicenseExpiration": "2025-06-01",
+  "houseId": "1", 
+  "contact": [
+    {
+      "id": "1",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "cellPhone": "555-8765",
+      "alternatePhone": "555-4321",
+      "email": "jane.doe@example.com",
+      "relationship": "Spouse",
+      "type": "Emergency"
+    },
+    {
+      "id": "2",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "cellPhone": "555-5678",
+      "alternatePhone": null,
+      "email": "bob.smith@example.com",
+      "relationship": "Friend",
+      "type": "Emergency"
+    }
+  ],
+  "address": [
+    {
+      "id": "1",
+      "addressLine1": "123 Main St",
+      "addressLine2": "Apt 101",
+      "city": "Cityville",
+      "state": "CA",
+      "zipCode": "12345"
+    },
+    {
+        "id": "2",
+        "addressLine1": "456 Main St",
+        "addressLine2": "Apt 101",
+        "city": "Cityville",
+        "state": "CA",
+        "zipCode": "12345"
+      }
+  ],
+  "visaStatus": [
+    {
+      "id": "1",
+      "visaType": "H1B",
+      "activeFlag": true,
+      "startDate": "2020-01-01",
+      "endDate": "2023-01-01",
+      "lastModificationDate": "2022-12-01"
+    }
+  ],
+  "personalDocument": [
+    {
+      "id": "1",
+      "path": "/documents/john_doe_license.pdf",
+      "title": "Driver License",
+      "comment": "Scanned copy of driver license",
+      "createDate": "2020-05-15"
+    }
+  ]
+}
