@@ -11,7 +11,7 @@ CREATE TABLE User (
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     createDate DATETIME DEFAULT CURRENT_TIMESTAMP,
-    lastmodificationDate DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    lastModificationDate DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     activeFlag BOOLEAN DEFAULT TRUE
 );
 
@@ -34,7 +34,8 @@ CREATE TABLE Role (
 INSERT INTO Role (rolename, roledescription)
 VALUES 
 ('employee', 'Regular employee with standard access rights'),
-('HR', 'Human Resources personnel with special access rights');
+('HR', 'Human Resources personnel with special access rights'),
+('Applicant', 'Onboarding Application Applicant');
 
 -- Create the 'UserRole' table
 CREATE TABLE UserRole (

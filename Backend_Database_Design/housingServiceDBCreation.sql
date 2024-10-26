@@ -48,9 +48,18 @@ CREATE TABLE facility (
 -- Insert records into the 'facility' table
 INSERT INTO facility (houseId, type, description, quantity)
 VALUES 
-(1, 'Bathroom', 'Full bathroom with shower and tub', 2),
-(1, 'Kitchen', 'Modern kitchen with appliances', 1),
-(2, 'Bedroom', 'Spacious bedrooms with closets', 3);
+(1, 'Bed', 'Bed', 2),
+(1, 'Mattress', 'Mattress', 1),
+(1, 'Table', 'Table', 1)
+(1, 'Chair', 'Chair', 3)
+(2, 'Bed', 'Bed', 2),
+(2, 'Mattress', 'Mattress', 2),
+(2, 'Table', 'Table', 1)
+(2, 'Chair', 'Chair', 3)
+(3, 'Bed', 'Bed', 2),
+(3, 'Mattress', 'Mattress', 2),
+(3, 'Table', 'Table', 1)
+(3, 'Chair', 'Chair', 3);;
 
 -- Create the 'facilityReport' table
 CREATE TABLE facilityReport (
